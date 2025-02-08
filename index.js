@@ -7,6 +7,7 @@ function sumDigits(num) {
             sum += digit;
         }
     }
+    console.log(sum);
     return sum;
     //TODO
     //returns sum of the digits in the given number
@@ -27,11 +28,11 @@ function displayAnanas() {
     //display out word "ananas" using only letters 'a' and 's'
 }
 
-alert(sumDigits(123));
-alert(sumDigits("123"));
-alert(sumDigits("a123"));
-alert(sumDigits("123a"));
-alert(sumDigits(-123));
-alert(sumDigits(123.3333));
+sumDigits(123);
+sumDigits("123");
+sumDigits("a123");
+sumDigits("123a");
+sumDigits(-123);
+sumDigits(123.3333);
 
 displayAnanas();
